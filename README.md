@@ -1,6 +1,6 @@
 # Spring Auth Server
 
-**spring_auth_server** is a Spring Boot--based **Authorization Server**
+This is a Spring Boot--based **Authorization Server**
 that handles user authentication and issues OAuth2 access tokens for
 clients.\
 As the project name suggests, it authorizes requests for viewing a
@@ -38,7 +38,7 @@ Authorization Server**, built on top of Spring Security. It can:
 ## Prerequisites
 
 -   Java 17+
--   Maven or Gradle
+-   Maven
 
 ------------------------------------------------------------------------
 
@@ -56,19 +56,8 @@ Authorization Server**, built on top of Spring Security. It can:
 
         mvn spring-boot:run
 
-The Authorization Server will start on **http://localhost:8080** by
+The Authorization Server will start on **http://localhost:9000** by
 default.
-
-------------------------------------------------------------------------
-
-## Roles & Authorities
-
-Role    Description
-  ------- ------------------------------------------------
-USER    Standard access to customer data
-ADMIN   Elevated access with administrative privileges
-
-------------------------------------------------------------------------
 
 ## OAuth2 Endpoints
 
