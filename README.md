@@ -66,7 +66,7 @@ Typical endpoints exposed by the Authorization Server:
 -   `/oauth2/authorize` -- Authorization endpoint
 -   `/oauth2/token` -- Token endpoint
 -   `/oauth2/jwks` -- JSON Web Key Set
--   `/.well-known/oauth-authorization-server` -- Server metadata
+-   `/.well-known/openid-configuration` -- Server metadata
 
 ------------------------------------------------------------------------
 
